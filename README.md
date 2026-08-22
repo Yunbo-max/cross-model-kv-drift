@@ -12,7 +12,13 @@ differ (2 vs 4), making the large→small→large rank bottleneck directly testa
 - Shared-tokenizer gate: passed on 10,000 FineWeb-Edu texts / 6,175,046 tokens.
 - Forward calibration: 500 × 1024 tokens, stride 4 (128,000 observations).
 - Qwen 1.5B→7B k=28 fit: complete; mean fit R² K=0.8111, V=0.6582.
-- Next gate: held-out single-hop fidelity, then HellaSwag/ARC retention.
+- Held-out 32-prefix state smoke: cache R² 0.9913, probe attention cosine
+  0.6961, logit KL 0.1866, top-1 agreement 81.25%.
+- HellaSwag 1K: native/transfer acc 52.4/47.9 (91.4% retention) and
+  acc_norm 67.7/60.6 (89.5% retention). This is a borderline stress pair, not
+  yet a near-lossless main pair.
+- Next gate: paired confidence intervals and ARC-Challenge; repeated cycles are
+  still blocked by the single-hop gate.
 - Repeated-cycle tests run only if single-hop retention passes the preregistered gate.
 
 ## Layout

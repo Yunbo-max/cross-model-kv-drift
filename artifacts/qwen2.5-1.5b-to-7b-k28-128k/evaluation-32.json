@@ -1,0 +1,268 @@
+{
+  "summary": {
+    "sequences": 32,
+    "cache_r2_mean": 0.9913203002703618,
+    "attention_cosine_mean": 0.6961097230502804,
+    "attention_cosine_min": 0.18707175552845,
+    "logit_kl_mean": 0.18664674100500633,
+    "next_token_agreement": 0.8125
+  },
+  "cases": [
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4097",
+      "cache_r2": 0.9907690799292201,
+      "attention_cosine_mean": 0.6850074199693543,
+      "attention_cosine_min": 0.46141329407691956,
+      "logit_kl": 0.14420831203460693,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4101",
+      "cache_r2": 0.9882152377214772,
+      "attention_cosine_mean": 0.6470140133585248,
+      "attention_cosine_min": 0.36625969409942627,
+      "logit_kl": 0.06389544159173965,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4110",
+      "cache_r2": 0.9923845267332266,
+      "attention_cosine_mean": 0.6462712224040713,
+      "attention_cosine_min": 0.308315634727478,
+      "logit_kl": 0.03614167869091034,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4115",
+      "cache_r2": 0.9930738291534159,
+      "attention_cosine_mean": 0.7173977834837777,
+      "attention_cosine_min": 0.496787965297699,
+      "logit_kl": 0.8240143656730652,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4119",
+      "cache_r2": 0.9931380161886473,
+      "attention_cosine_mean": 0.6446799231427056,
+      "attention_cosine_min": 0.3647864758968353,
+      "logit_kl": 0.08653785288333893,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4121",
+      "cache_r2": 0.9928280441199921,
+      "attention_cosine_mean": 0.7830921007054192,
+      "attention_cosine_min": 0.5915510654449463,
+      "logit_kl": 0.39642083644866943,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4127",
+      "cache_r2": 0.9908001089095922,
+      "attention_cosine_mean": 0.7153533228806087,
+      "attention_cosine_min": 0.5435617566108704,
+      "logit_kl": 0.02262662723660469,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4133",
+      "cache_r2": 0.9926492165460449,
+      "attention_cosine_mean": 0.6761144644447735,
+      "attention_cosine_min": 0.3077964782714844,
+      "logit_kl": 0.03796035796403885,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4135",
+      "cache_r2": 0.9914074361206471,
+      "attention_cosine_mean": 0.6401475188987595,
+      "attention_cosine_min": 0.354918509721756,
+      "logit_kl": 0.07242795079946518,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4140",
+      "cache_r2": 0.9888392229182869,
+      "attention_cosine_mean": 0.6824283131531307,
+      "attention_cosine_min": 0.537157416343689,
+      "logit_kl": 0.11305259168148041,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4141",
+      "cache_r2": 0.9929164741525822,
+      "attention_cosine_mean": 0.7716327756643295,
+      "attention_cosine_min": 0.538969099521637,
+      "logit_kl": 0.09434127807617188,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4145",
+      "cache_r2": 0.9876560910427779,
+      "attention_cosine_mean": 0.6260441850338664,
+      "attention_cosine_min": 0.3306674361228943,
+      "logit_kl": 0.16766485571861267,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4148",
+      "cache_r2": 0.9912739813092893,
+      "attention_cosine_mean": 0.7124633214303425,
+      "attention_cosine_min": 0.5464861392974854,
+      "logit_kl": 0.10798521339893341,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4149",
+      "cache_r2": 0.9909971753505604,
+      "attention_cosine_mean": 0.7238035755498069,
+      "attention_cosine_min": 0.5009864568710327,
+      "logit_kl": 0.7398192882537842,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4151",
+      "cache_r2": 0.9902029654361298,
+      "attention_cosine_mean": 0.6848484554461071,
+      "attention_cosine_min": 0.4641394019126892,
+      "logit_kl": 0.273822158575058,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4155",
+      "cache_r2": 0.9908221784155412,
+      "attention_cosine_mean": 0.6755806878209114,
+      "attention_cosine_min": 0.3955841362476349,
+      "logit_kl": 0.05028335005044937,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4159",
+      "cache_r2": 0.9915793848704891,
+      "attention_cosine_mean": 0.6920391970447132,
+      "attention_cosine_min": 0.43427467346191406,
+      "logit_kl": 0.02013811655342579,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4164",
+      "cache_r2": 0.9925117062934041,
+      "attention_cosine_mean": 0.7494073276008878,
+      "attention_cosine_min": 0.5297691822052002,
+      "logit_kl": 0.08618523180484772,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4165",
+      "cache_r2": 0.9919123802348226,
+      "attention_cosine_mean": 0.6679173250283513,
+      "attention_cosine_min": 0.34729060530662537,
+      "logit_kl": 0.0002402110112598166,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4167",
+      "cache_r2": 0.9929916724826435,
+      "attention_cosine_mean": 0.8020008270229612,
+      "attention_cosine_min": 0.6105420589447021,
+      "logit_kl": 0.31306302547454834,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4169",
+      "cache_r2": 0.9885050899061202,
+      "attention_cosine_mean": 0.523311930575541,
+      "attention_cosine_min": 0.18707175552845,
+      "logit_kl": 0.1539473831653595,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4173",
+      "cache_r2": 0.9923798610431231,
+      "attention_cosine_mean": 0.743432709148952,
+      "attention_cosine_min": 0.5104159712791443,
+      "logit_kl": 0.8063310384750366,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4175",
+      "cache_r2": 0.9928660455937273,
+      "attention_cosine_mean": 0.7084761623825345,
+      "attention_cosine_min": 0.4779571294784546,
+      "logit_kl": 0.01449778862297535,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4177",
+      "cache_r2": 0.9914666279955286,
+      "attention_cosine_mean": 0.7013623363205365,
+      "attention_cosine_min": 0.38680556416511536,
+      "logit_kl": 0.1203656792640686,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4179",
+      "cache_r2": 0.9919865067779556,
+      "attention_cosine_mean": 0.8230994514056614,
+      "attention_cosine_min": 0.6564674377441406,
+      "logit_kl": 0.04547605663537979,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4192",
+      "cache_r2": 0.9924289408485928,
+      "attention_cosine_mean": 0.6799407941954476,
+      "attention_cosine_min": 0.26577556133270264,
+      "logit_kl": 0.02375089004635811,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4197",
+      "cache_r2": 0.9899139996676322,
+      "attention_cosine_mean": 0.6957794321434838,
+      "attention_cosine_min": 0.46414414048194885,
+      "logit_kl": 0.006859262473881245,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4203",
+      "cache_r2": 0.9921661344469483,
+      "attention_cosine_mean": 0.7519057542085648,
+      "attention_cosine_min": 0.549400806427002,
+      "logit_kl": 0.11250980198383331,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4204",
+      "cache_r2": 0.9920354190575555,
+      "attention_cosine_mean": 0.7037607080170086,
+      "attention_cosine_min": 0.4644900858402252,
+      "logit_kl": 0.4785135090351105,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4214",
+      "cache_r2": 0.9917691300044498,
+      "attention_cosine_mean": 0.7575715812189239,
+      "attention_cosine_min": 0.4533909261226654,
+      "logit_kl": 0.11590880155563354,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4220",
+      "cache_r2": 0.9912064474889933,
+      "attention_cosine_mean": 0.6187761851719448,
+      "attention_cosine_min": 0.24434000253677368,
+      "logit_kl": 0.4427727460861206,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4226",
+      "cache_r2": 0.9885566778921628,
+      "attention_cosine_mean": 0.624850332736969,
+      "attention_cosine_min": 0.3161729574203491,
+      "logit_kl": 0.000934010895434767,
+      "next_token_agreement": true
+    }
+  ]
+}

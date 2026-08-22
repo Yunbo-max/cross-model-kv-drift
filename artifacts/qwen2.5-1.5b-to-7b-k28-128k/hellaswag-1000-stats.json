@@ -1,0 +1,33 @@
+{
+  "bootstrap_samples": 10000,
+  "examples": 1000,
+  "normalized": {
+    "accuracy_delta": -0.071,
+    "accuracy_delta_ci95": [
+      -0.093,
+      -0.05
+    ],
+    "native_only_correct": 99,
+    "retention": 0.8951255539143278,
+    "retention_ci95": [
+      0.8645829232283464,
+      0.9259259259259258
+    ],
+    "transfer_only_correct": 28
+  },
+  "raw": {
+    "accuracy_delta": -0.045,
+    "accuracy_delta_ci95": [
+      -0.062,
+      -0.028
+    ],
+    "native_only_correct": 62,
+    "retention": 0.91412213740458,
+    "retention_ci95": [
+      0.8824599429323967,
+      0.9454545454545454
+    ],
+    "transfer_only_correct": 17
+  },
+  "seed": 0
+}
