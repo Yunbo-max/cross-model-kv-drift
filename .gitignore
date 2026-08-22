@@ -1,0 +1,15 @@
+.venv/
+.pytest-tmp/
+__pycache__/
+*.pyc
+
+models/
+data/
+papers/*.pdf
+papers/*.txt
+
+artifacts/**/mapper.safetensors
+artifacts/demo/
+
+external/*
+!external/kvbridge

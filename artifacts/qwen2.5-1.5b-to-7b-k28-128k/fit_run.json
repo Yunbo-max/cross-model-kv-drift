@@ -1,0 +1,29 @@
+{
+  "artifact_storage_dtype": "bfloat16",
+  "calibration_bytes": 11141601904,
+  "calibration_data_passes": 56,
+  "calibration_shards": 500,
+  "capture_code_revision": "949d81d7861e998d5c42db68d7567cc70e2e58c5",
+  "capture_manifest_sha256": "34ceb8b02ac94f7078bfb6b2523fdd140cdd6043058e71d2c61c59573182b71e",
+  "code_revision": "949d81d7861e998d5c42db68d7567cc70e2e58c5",
+  "config_sha256": "6675726cf459a570a327201ce71b16376b4ce4ad8e6041396c74c516f4fe11e4",
+  "effective_fit_token_stride": 1,
+  "elapsed_seconds": 526.337604173983,
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 3090",
+    "cuda_peak_memory_bytes": 1557624832,
+    "cuda_runtime": "13.0",
+    "packages": {
+      "numpy": "2.2.6",
+      "safetensors": "0.8.0"
+    },
+    "python": "3.10.12",
+    "torch": "2.13.0+cu130"
+  },
+  "estimated_calibration_bytes_read": 623929706624,
+  "evidence_tier": "T2",
+  "fit_key_r2_mean": 0.8111414568764823,
+  "fit_value_r2_mean": 0.6581767605883735,
+  "persisted_token_stride": 4,
+  "schema_version": 1
+}

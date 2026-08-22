@@ -1,0 +1,4 @@
+[submodule "external/kvbridge"]
+	path = external/kvbridge
+	url = https://github.com/Yunbo-max/kvbridge.git
+	branch = research/cross-model-kv-drift

@@ -1,0 +1,27 @@
+{
+  "name": "qwen2.5-1.5b-to-7b-formal-capture",
+  "tokenizer_local_dir": "models/Qwen2.5-1.5B",
+  "source": {
+    "model_id": "Qwen/Qwen2.5-1.5B",
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "local_dir": "models/Qwen2.5-1.5B",
+    "num_layers": 28
+  },
+  "target": {
+    "model_id": "Qwen/Qwen2.5-7B",
+    "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+    "local_dir": "models/Qwen2.5-7B",
+    "num_layers": 28
+  },
+  "dataset": {
+    "id": "HuggingFaceFW/fineweb-edu",
+    "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "split": "train"
+  },
+  "sequences": 500,
+  "tokens": 1024,
+  "stride": 4,
+  "persisted_token_stride": 4,
+  "top_k": 28,
+  "ridge_alpha": 0.01
+}

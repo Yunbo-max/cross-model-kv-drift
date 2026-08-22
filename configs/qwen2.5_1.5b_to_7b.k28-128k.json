@@ -1,0 +1,56 @@
+{
+  "name": "qwen2.5-1.5b-to-7b-k28-128k",
+  "evidence_tier": "T2",
+  "persisted_token_stride": 4,
+  "source": {
+    "model_id": "Qwen/Qwen2.5-1.5B",
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "tokenizer_hash": "fa3fa38a5a6a26361a632d99279fe2e13efb71fb37c74c48388a4201ded269e6",
+    "num_layers": 28,
+    "num_kv_heads": 2,
+    "head_dim": 128,
+    "attention_kind": "dense",
+    "architecture": "Qwen2ForCausalLM"
+  },
+  "target": {
+    "model_id": "Qwen/Qwen2.5-7B",
+    "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+    "tokenizer_hash": "fa3fa38a5a6a26361a632d99279fe2e13efb71fb37c74c48388a4201ded269e6",
+    "num_layers": 28,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "attention_kind": "dense",
+    "architecture": "Qwen2ForCausalLM"
+  },
+  "fit": {
+    "top_k": 28,
+    "ridge_alpha": 0.01,
+    "content_space": true,
+    "selection_alpha": 0.000001,
+    "accumulation_dtype": "float32",
+    "accumulation_device": "cuda",
+    "require_matched_kv": false,
+    "target_layer_block_size": 1,
+    "selection_target_layer_block_size": 1
+  },
+  "calibration": {
+    "dataset": "HuggingFaceFW/fineweb-edu",
+    "dataset_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "split": "train",
+    "sequences": 500,
+    "tokens": 1024,
+    "stride": 4
+  },
+  "evaluation": {
+    "sequences": 512,
+    "tokens": 1024,
+    "dataset_skip": 4096,
+    "max_suffix_tokens": 1,
+    "attention_cosine_floor": 0.0,
+    "logit_kl_ceiling": 100.0
+  },
+  "model_dtype": "bfloat16",
+  "artifact_storage_dtype": "bfloat16",
+  "cache_dtype_bytes": 2,
+  "artifact_dtype_bytes": 2
+}

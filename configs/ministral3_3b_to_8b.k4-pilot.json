@@ -1,0 +1,55 @@
+{
+  "name": "ministral3-3b-to-8b-k4-sequential-pilot",
+  "evidence_tier": "T2",
+  "source": {
+    "model_id": "mistralai/Ministral-3-3B-Reasoning-2512",
+    "revision": "4a36357c811bf511a7b625d132e12f22408aac91",
+    "tokenizer_hash": "8b53014a2a278ed72d7758c17dbd4f6b740485e8ee11cf58184bb343010d20a9",
+    "num_layers": 26,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "attention_kind": "dense",
+    "architecture": "Mistral3ForConditionalGeneration"
+  },
+  "target": {
+    "model_id": "mistralai/Ministral-3-8B-Reasoning-2512",
+    "revision": "81eaece1948f3875421d9a45bc55487d10e2d894",
+    "tokenizer_hash": "8b53014a2a278ed72d7758c17dbd4f6b740485e8ee11cf58184bb343010d20a9",
+    "num_layers": 34,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "attention_kind": "dense",
+    "architecture": "Mistral3ForConditionalGeneration"
+  },
+  "fit": {
+    "top_k": 4,
+    "ridge_alpha": 0.01,
+    "content_space": true,
+    "selection_alpha": 0.000001,
+    "accumulation_dtype": "float32",
+    "accumulation_device": "cuda",
+    "require_matched_kv": true,
+    "target_layer_block_size": 1,
+    "selection_target_layer_block_size": 2
+  },
+  "calibration": {
+    "dataset": "HuggingFaceFW/fineweb-edu",
+    "dataset_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "split": "train",
+    "sequences": 16,
+    "tokens": 512,
+    "stride": 4
+  },
+  "evaluation": {
+    "sequences": 8,
+    "tokens": 512,
+    "dataset_skip": 4096,
+    "max_suffix_tokens": 1,
+    "attention_cosine_floor": 0.9,
+    "logit_kl_ceiling": 0.2
+  },
+  "model_dtype": "bfloat16",
+  "artifact_storage_dtype": "bfloat16",
+  "cache_dtype_bytes": 2,
+  "artifact_dtype_bytes": 2
+}

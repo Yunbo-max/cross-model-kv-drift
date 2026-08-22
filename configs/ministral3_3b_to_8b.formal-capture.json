@@ -1,0 +1,26 @@
+{
+  "name": "ministral3-3b-to-8b-formal-capture",
+  "source": {
+    "model_id": "mistralai/Ministral-3-3B-Reasoning-2512",
+    "revision": "4a36357c811bf511a7b625d132e12f22408aac91",
+    "local_dir": "models/Ministral-3-3B-Reasoning-2512",
+    "num_layers": 26
+  },
+  "target": {
+    "model_id": "mistralai/Ministral-3-8B-Reasoning-2512",
+    "revision": "81eaece1948f3875421d9a45bc55487d10e2d894",
+    "local_dir": "models/Ministral-3-8B-Reasoning-2512",
+    "num_layers": 34
+  },
+  "dataset": {
+    "id": "HuggingFaceFW/fineweb-edu",
+    "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "split": "train"
+  },
+  "sequences": 500,
+  "tokens": 1024,
+  "stride": 4,
+  "persisted_token_stride": 4,
+  "top_k": 26,
+  "ridge_alpha": 0.01
+}

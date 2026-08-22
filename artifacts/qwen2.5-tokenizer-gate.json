@@ -1,0 +1,14 @@
+{
+  "maximum_token_id": 150592,
+  "schema_version": 1,
+  "shared_ids_by_construction": true,
+  "shared_lengths_by_construction": true,
+  "source_ids_in_range": true,
+  "source_vocab_size": 151936,
+  "target_ids_in_range": true,
+  "target_vocab_size": 152064,
+  "texts": 10000,
+  "tokenizer": "models/Qwen2.5-1.5B",
+  "tokenizer_sha256": "fa3fa38a5a6a26361a632d99279fe2e13efb71fb37c74c48388a4201ded269e6",
+  "tokens": 6175046
+}
