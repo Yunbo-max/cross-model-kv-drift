@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "sequences": 8,
+    "cache_r2_mean": -509.3213807175582,
+    "attention_cosine_mean": 0.3520721955882276,
+    "attention_cosine_min": 0.01583288609981537,
+    "logit_kl_mean": 4.408547133207321,
+    "next_token_agreement": 0.125
+  },
+  "cases": [
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4097",
+      "cache_r2": -516.299885790722,
+      "attention_cosine_mean": 0.37371571844114976,
+      "attention_cosine_min": 0.021881021559238434,
+      "logit_kl": 5.072645664215088,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4099",
+      "cache_r2": -483.7620119858686,
+      "attention_cosine_mean": 0.41423020840567704,
+      "attention_cosine_min": 0.05096182972192764,
+      "logit_kl": 3.5336825847625732,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4100",
+      "cache_r2": -676.8038915613322,
+      "attention_cosine_mean": 0.26620208121397915,
+      "attention_cosine_min": 0.0352698378264904,
+      "logit_kl": 2.0628745555877686,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4101",
+      "cache_r2": -536.8262757236109,
+      "attention_cosine_mean": 0.33414012155331235,
+      "attention_cosine_min": 0.01583288609981537,
+      "logit_kl": 7.407660961151123,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4106",
+      "cache_r2": -392.66510214807346,
+      "attention_cosine_mean": 0.36690019268323393,
+      "attention_cosine_min": 0.04003860801458359,
+      "logit_kl": 5.1867995262146,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4107",
+      "cache_r2": -536.6046820112673,
+      "attention_cosine_mean": 0.33054706377579884,
+      "attention_cosine_min": 0.03677498921751976,
+      "logit_kl": 0.547029972076416,
+      "next_token_agreement": true
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4109",
+      "cache_r2": -449.41113539350243,
+      "attention_cosine_mean": 0.34819245267221155,
+      "attention_cosine_min": 0.021676158532500267,
+      "logit_kl": 3.279444932937622,
+      "next_token_agreement": false
+    },
+    {
+      "sequence_id": "HuggingFaceFW/fineweb-edu:train:4110",
+      "cache_r2": -482.1980611260887,
+      "attention_cosine_mean": 0.38264972596045804,
+      "attention_cosine_min": 0.058969806879758835,
+      "logit_kl": 8.178238868713379,
+      "next_token_agreement": false
+    }
+  ]
+}
